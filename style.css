@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* Header elements */
+
+.navbar{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.div-logo{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    max-width: 200px;
+    height: 150px;
+}
+
+.name{
+    color: white;
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+.div-ul-nav{
+    display: flex;
+    width:100%;
+    right: 0;
+
+}
+
+.ul-nav{
+    display: flex;
+    color: white;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.li-nav{
+    display: flex;
+    margin: 20px;
+    font-size: 23px;
+
+}
+
+/* home page main section */
