@@ -1,3 +1,16 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+img,picture,svg,video{
+    display: block;
+    max-width: 100%;
+}
+
+input,textarea,button,select{
+    font:inherit;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -112,16 +125,22 @@ header{
     text-align: center;
 }
 
-.div-main-2{
+.div-main-2,.div-main-3{
     display: flex;
     margin-top: 300px;
 }
 
 .vr-img{
+    margin-left: 200px;
 }
 
 .vr{
     object-fit: cover;
     width: 500px;
     height: 300px;
+    border-radius: 10px;
+}
+
+.div-vr-text{
+    margin-left: 50px;
 }
