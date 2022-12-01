@@ -66,11 +66,12 @@ header{
 
 .whale{
     width: 100%;
-    height: 100%;
-    filter: brightness(65%);
+    height: 600px;
+    filter: brightness(50%);
+    object-fit: cover;
 }
 
-.main-title{
+.div-main-explore{
     display: block;
     width: 100%;
     position: absolute;
@@ -85,7 +86,7 @@ header{
     justify-content: center;
 }
 
-.main-ul{
+.main-ul,.div-a-visit{
     width: 100%;
     justify-content: center;
     display: flex;
@@ -97,4 +98,30 @@ header{
     width: 500px;
     text-align: center;
     padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.visit{
+    background-color: red;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.div-main-2{
+    display: flex;
+    margin-top: 300px;
+}
+
+.vr-img{
+}
+
+.vr{
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
 }
