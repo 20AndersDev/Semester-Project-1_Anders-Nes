@@ -19,55 +19,40 @@ body{
 header{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
-}
-
-/* Header elements */
-
-.navbar{
-    width: 100%;
     background-color: red;
-    display: flex;
-    height: 150px;
     align-items: center;
 }
 
-.div-logo{
-    max-width: 300px;
-    width: 100%;
-    display: flex;
+/* Header elements */
+.nav-hamburger-menu{
+    display: none;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    align-items: center;
 }
+
+#check-menu:checked ~ nav{
+    display: block;
+}
+
+#check-menu{
+    display: none;
+}
+
 
 .logo{
     max-width: 200px;
     height: 150px;
+    width: 100%;
 }
 
 .name{
     color: white;
-    max-width: 100px;
-    margin-left: 20px;
-}
-
-.div-ul-nav{
-    display: flex;
-    width:100%;
-}
-
-.ul-nav{
-    display: flex;
-    color: white;
-    list-style: none;
     width: 100%;
-    justify-content: flex-end;
-    margin-right: 30px;
-}
-
-.li-nav{
-    display: flex;
-    margin: 20px;
-    font-size: 23px;
-
+    max-width: 200px;
+    height: 100px;
 }
 
 /* home page main section */
@@ -143,4 +128,48 @@ header{
 
 .div-vr-text{
     margin-left: 50px;
+}
+
+/* media queries */
+@media (min-width:1201px){
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+
+    .nav-button{
+        display: inline-block;
+        color: white;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        width: 150px;
+        margin-right: 20px;
+        background-color: #691616;
+        border-radius: 20px;
+        text-align: center;
+        
+    }
+
+}
+
+
+
+@media (max-width:1200px){
+
+    .nav-hamburger-menu{
+        display: flex;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header{
+        height: 100px;
+    }
+
+    .name{
+        height: ;
+    }
 }
