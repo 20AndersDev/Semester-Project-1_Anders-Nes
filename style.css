@@ -17,35 +17,56 @@ body{
 }
 
 header{
-    display: flex;
-    width: 100%;
-    background-color: red;
+    display: inline-flex;
     align-items: center;
+    background-color: #F61313;
+    width: 100%;
+    height: 100px;
+}
+
+a,a::after,a::after{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: #F61414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.push-footer{
+    height: 100px;
 }
 
 /* Header elements */
 .nav-hamburger-menu{
     display: none;
     font-size: 20px;
-    padding: 20px;
+    margin-left: 20px;
     color: white;
     font-size: 25px;
     align-items: center;
+}
+
+nav,#check-menu{
+    display: none;
 }
 
 #check-menu:checked ~ nav{
     display: block;
 }
 
-#check-menu{
-    display: none;
-}
 
 
 .logo{
-    max-width: 200px;
-    height: 150px;
-    width: 100%;
+    height: 90px;
+    width: 150px;
 }
 
 .name{
@@ -55,97 +76,147 @@ header{
     height: 100px;
 }
 
+.test{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.csm{
+    width: 20px;
+}
+
 /* home page main section */
 
-.div-whale{
-    width: 100%;
-    height: 500px;
+
+.div-explore-container{
+    background-image: url(/images/scientific-2040795_1280_23_11zon.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    ba
 }
 
-.whale{
-    width: 100%;
-    height: 600px;
-    filter: brightness(50%);
-    object-fit: cover;
-}
-
-.div-main-explore{
-    display: block;
-    width: 100%;
-    position: absolute;
-    justify-content: center;
-    top: 150px;
-    color: white;
+.div-explore{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+color: white;
 }
 
 .main-h1,.main-h2{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+.div-explore-h2{
     display: flex;
+    text-align: center;
     width: 100%;
-    justify-content: center;
 }
 
 .main-ul,.div-a-visit{
-    width: 100%;
-    justify-content: center;
-    display: flex;
+width: 100%;
+justify-content: center;
+display: flex;
 }
 
 .ul-hours{
-    list-style: none;
-    background-color: #433C3C;
-    width: 500px;
-    text-align: center;
-    padding-left: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 20px;
+list-style: none;
+background-color: #433C3C;
+width: 500px;
+text-align: center;
+padding-left: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 20px;
 }
 
 .visit{
+background-color: red;
+padding: 20px;
+margin-top: 60px;
+margin-bottom: 60px;
+border-radius: 10px;
+width: 130px;
+text-align: center;
+}
+
+/* articles on home page*/
+.home-article1-container{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.home-article2-container{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap-reverse;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.div-article1-img,.div-article2-img{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.article1-img{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.div-article-p,.div-article2-p{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+.explore-button,.exhib_spaces-button{
+    display: flex;
     background-color: red;
     padding: 20px;
-    margin-top: 60px;
+    margin-bottom: 60px;
     border-radius: 10px;
-    width: 130px;
-    text-align: center;
+    width: 200px;
+    justify-content: center;
+
 }
 
-.div-main-2,.div-main-3{
-    display: flex;
-    margin-top: 300px;
-}
-
-.vr-img{
-    margin-left: 200px;
-}
-
-.vr{
-    object-fit: cover;
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-}
-
-.div-vr-text{
-    margin-left: 50px;
-}
 
 /* media queries */
-@media (min-width:1201px){
+@media (min-width:1301px){
     nav {
-        display: flex;
+        display: inline-flex;
         width: 100%;
-        justify-content: end;
+        justify-content:flex-end;
+        position:static;
+        
     }
-
     .nav-button{
         display: inline-block;
         color: white;
         padding-bottom: 15px;
         padding-top: 15px;
-        width: 150px;
-        margin-right: 20px;
-        background-color: #691616;
+        width: 120px;
+        margin-left: 0px;
+        background-color:#F61313;
         border-radius: 20px;
         text-align: center;
         
@@ -155,21 +226,50 @@ header{
 
 
 
-@media (max-width:1200px){
+@media (max-width:1300px){
+    header{
+        display: flex;
+        height: 100px;
+        width: 100%;
+    }
 
     .nav-hamburger-menu{
         display: flex;
     }
 
     nav{
-        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        background-color:#680a0a;
+    }
+    .nav-button{
+        display: block;
+        width: 100%;
+        border-radius: 0%;
+        margin: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
+    }
+    
+    .logo{
+        height: 100%;
+        width: 100px;
     }
 
-    header{
-        height: 100px;
+    .csm{
+        display: block;
+        width: 20px;
     }
 
-    .name{
-        height: ;
+    .test{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
     }
+
 }

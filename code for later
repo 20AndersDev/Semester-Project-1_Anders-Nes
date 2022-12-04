@@ -1,0 +1,130 @@
+ <div class="main-container">
+            <div class="div-whale">
+                <img src="/images/scientific-2040795_1280_23_11zon.jpeg" alt="" class="whale">
+            </div>
+            <div class="div-main-explore">
+                <div>
+                    <h1 class="main-h1"> Explore</h1>
+                </div>
+                <div>
+                    <h2 class="main-h2">Come join us at the Community Science Museum where we’re committed to making science accessible to all</h2>
+                </div>
+                <div class="main-ul">
+                    <ul class="ul-hours">
+                        <li>Hours</li>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday: 10:00 - 16:00</li>
+                        <li>Wednesday: 10:00 - 16:00 </li>
+                        <li>Thursday: 10:00 - 16:00</li>
+                        <li>Friday: 10:00 - 19:00</li>
+                        <li>Saturday: 9:00 - 16:00</li>
+                        <li>Sunday: 9:00 - 13:00</li>
+                    </ul>
+                </div>
+                <div class="div-a-visit">
+                    <a class="visit">Visit Us</a>
+                </div> 
+            </div>
+            <div class="div-main-2">
+                <div class="vr-img">
+                    <img src="/images/samuel-zeller-158996_21_11zon.jpeg" class="vr">
+                </div>
+                <div class="div-vr-text">
+                    <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                    <a>Explore</a>
+                </div>
+            </div>
+            <div class="div-main-3">
+                <div class="div-vr-text2">
+                    <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                    <a>Explore</a>
+                </div>
+                <div class="vr-img2">
+                    <img src="/images/samuel-zeller-158996_21_11zon.jpeg" class="vr">
+                </div>
+                
+            </div>
+                
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+    .div-whale{
+    width: 100%;
+    height: 500px;
+
+}
+
+.whale{
+width: 100%;
+height: 600px;
+filter: brightness(50%);
+object-fit: cover;
+}
+
+.div-main-explore{
+display: block;
+width: 100%;
+position: absolute;
+justify-content: center;
+top: 150px;
+color: white;
+}
+
+.main-h1,.main-h2{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+.main-ul,.div-a-visit{
+width: 100%;
+justify-content: center;
+display: flex;
+}
+
+.ul-hours{
+list-style: none;
+background-color: #433C3C;
+width: 500px;
+text-align: center;
+padding-left: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 20px;
+}
+
+.visit{
+background-color: red;
+padding: 20px;
+margin-top: 60px;
+border-radius: 10px;
+width: 130px;
+text-align: center;
+}
+
+.div-main-2,.div-main-3{
+display: flex;
+margin-top: 300px;
+}
+
+.vr-img{
+margin-left: 200px;
+}
+
+.vr{
+object-fit: cover;
+width: 500px;
+height: 300px;
+border-radius: 10px;
+}
+
+.div-vr-text{
+margin-left: 50px;
+}
