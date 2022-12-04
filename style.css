@@ -97,11 +97,11 @@ nav,#check-menu{
 }
 
 .div-explore{
-display: flex;
-flex-direction: column;
-width: 100%;
-justify-content: center;
-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    color: white;
 }
 
 .main-h1,.main-h2{
