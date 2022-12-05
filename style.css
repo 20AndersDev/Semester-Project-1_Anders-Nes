@@ -227,7 +227,7 @@ text-align: center;
 
 
 
-.div-forkids{
+.div-forkids,.div-forteachers,.div-forresearchers {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
@@ -236,25 +236,39 @@ text-align: center;
     align-items: center;
 }
 
-.forkids-p{
+.forkids-p,.forteachers-p,.forresearchers-p{
     width: 100%;
     height: 100%;
     max-width: 500px;
     font-size: 20px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 .div-forkids-img{
     display: flex;
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     height: 100%;
-    max-height: 500px;
+    max-height: 300px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.forkids-img{
+.for-teachers{
+    margin-top: 50px;
+}
+
+.forkids-img,.for-teachers{
     object-fit: contain;
+}
+
+.div-forteachers-img,.div-forresearchers-img{
+    display: flex;
+    width: 100%;
+    max-height: 300px;
+    max-width: 250px;
+    margin-bottom: 50px;
 }
 
 
@@ -329,5 +343,14 @@ text-align: center;
         align-items: center;
         margin-right: 40px;
     }
+
+}
+@media (max-width:500px){
+
+    .div-explore-buttons{
+        gap: 10px;
+    }
+   
+    
 
 }
