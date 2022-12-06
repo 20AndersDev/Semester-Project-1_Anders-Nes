@@ -15,6 +15,7 @@ input,textarea,button,select{
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header{
@@ -272,9 +273,6 @@ text-align: center;
 }
 
 /* Exhibitions Spaces page */
-.div-exhib-container{
-    display: block;
-}
 
 .div-exhibspace-h1{
     display: flex;
@@ -282,36 +280,51 @@ text-align: center;
     width: 100%;
 }
 
-.div-cosmology-text{
-    display: block;
-    background-color: #241928;
-    max-height: 408.69px;
+.div-cosmology-text,.div-evolution-text{
+    display: flex;
+    width: 100%;
     color: white;
+    max-width: 700px;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .cosmology{
     display: flex;
-    margin-top: 100px;
     width: 100%;
-    flex-wrap: row-reverse;
-    
+    justify-content: center;
+    background-color: #241928;
+    flex-flow: row wrap-reverse;
+    margin-top: 100px;
 }
 
-.div-cosmology-img{
-    max-height: 500px;
+.evolution{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #3757C7;
+    flex-flow: row wrap;
+    margin-top: 100px;
+}
+
+.div-cosmology-img,.div-evolution-img{
+    display: flex;
+    max-height: 410px;
     max-width: 700px;
 
 }
 
-.cosmology-img{
-    display: flex;
-    height: 100%;
+.cosmology-img,.evolution-img{
+    object-fit: contain;    
     width: 100%;
-    object-fit: cover;    
+    height: 100%;
 }
 
 .cosmology-h2,.cosmology-p{
     margin-left: 30px;
+    width: 100%;
+    max-width: 400px;
     font-size: 20px;
 }
 
