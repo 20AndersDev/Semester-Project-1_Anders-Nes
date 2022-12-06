@@ -272,6 +272,10 @@ text-align: center;
 }
 
 /* Exhibitions Spaces page */
+.div-exhib-container{
+    display: block;
+}
+
 .div-exhibspace-h1{
     display: flex;
     justify-content: center;
@@ -281,8 +285,7 @@ text-align: center;
 .div-cosmology-text{
     display: block;
     background-color: #241928;
-    height: 408.69px;
-    align-items: center;
+    max-height: 408.69px;
     color: white;
 }
 
@@ -290,8 +293,8 @@ text-align: center;
     display: flex;
     margin-top: 100px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: row-reverse;
+    
 }
 
 .div-cosmology-img{
@@ -304,7 +307,7 @@ text-align: center;
     display: flex;
     height: 100%;
     width: 100%;
-    object-fit: contain;    
+    object-fit: cover;    
 }
 
 .cosmology-h2,.cosmology-p{
