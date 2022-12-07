@@ -280,7 +280,7 @@ text-align: center;
     width: 100%;
 }
 
-.div-cosmology-text,.div-evolution-text{
+.div-cosmology-text,.div-evolution-text,.div-Biology-and-Medicine-text,.div-robotics-and-ai-text,.div-ecology-text{
     display: flex;
     width: 100%;
     color: white;
@@ -290,7 +290,7 @@ text-align: center;
 
 }
 
-.cosmology{
+.cosmology,.Biology-and-Medicine,.ecology{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -298,8 +298,7 @@ text-align: center;
     flex-flow: row wrap-reverse;
     margin-top: 100px;
 }
-
-.evolution{
+.evolution,.robotics-and-ai{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -308,21 +307,36 @@ text-align: center;
     margin-top: 100px;
 }
 
-.div-cosmology-img,.div-evolution-img{
+.Biology-and-Medicine{
+    background-color: #007C0C;
+}
+
+.robotics-and-ai{
+    background-color: #BBB400;
+}
+.ecology{
+    background-color: #722C2C;
+}
+
+
+
+
+
+.div-cosmology-img,.div-evolution-img,.div-Biology-and-Medicine-img,.div-robotics-and-ai-img,.div-ecology-img{
     display: flex;
     max-height: 410px;
     max-width: 700px;
 
 }
 
-.cosmology-img,.evolution-img{
-    object-fit: contain;    
-    width: 100%;
-    height: 100%;
+
+.cosmology-img,.Biology-and-Medicine-img,.evolution-img,.robotics-and-ai-img,.ecology-img{
+    object-fit: cover;
 }
 
-.cosmology-h2,.cosmology-p{
-    margin-left: 30px;
+.cosmology-h2,.cosmology-p,.robotics-and-ai-h2,.robotics-and-ai-p,.ecology-h2,.ecology-p{
+    display: flex;
+    justify-content: center;
     width: 100%;
     max-width: 400px;
     font-size: 20px;
