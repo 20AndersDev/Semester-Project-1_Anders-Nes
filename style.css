@@ -391,13 +391,16 @@ text-align: center;
     height: 400px;
 }
 
-.container-visit,.div-location-h2,.div-location-h3{
+.container-visit,.div-location-h2,.div-location-h3,.div-admission-h2,.div-admission-h3{
     justify-content: center;
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 }
 
-
+.admission-p{
+    width: 600px
+}
 
 
 /* media queries */
