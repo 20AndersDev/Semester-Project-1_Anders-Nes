@@ -402,6 +402,10 @@ text-align: center;
     flex-wrap: wrap;
 }
 
+.info-container{
+    color: white;
+}
+
 .div-visit-img{
     height: 400px;
     width: 100%;
@@ -462,6 +466,9 @@ text-align: center;
     width: 500px;
     margin: 20px;
     text-align: center;
+    background-color: #722C2C;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* media queries */
@@ -536,6 +543,46 @@ text-align: center;
         align-items: center;
         margin-right: 40px;
     }
+
+    /* Support us Page */
+
+    .support-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-flow: flex wrap;
+        background-color: #722C2C;
+        color: white;
+    }
+
+    .div-getinvolved-h1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div-support-h1,.div-support-p{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .div-contact-button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .support-p{
+        text-align: center;
+        width: 300px;
+    }
+
 
 
 
