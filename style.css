@@ -402,6 +402,10 @@ text-align: center;
     flex-wrap: wrap;
 }
 
+.div-location-h3{
+    text-align: center;
+}
+
 .info-container{
     color: white;
 }
@@ -550,7 +554,7 @@ text-align: center;
         display: flex;
         justify-content: center;
         width: 100%;
-        flex-flow: flex wrap;
+        flex-flow: wrap;
         background-color: #722C2C;
         color: white;
     }
