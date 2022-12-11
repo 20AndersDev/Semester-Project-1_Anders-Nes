@@ -19,19 +19,22 @@ body{
 }
 
 header{
+    position: sticky;
     display: inline-flex;
     align-items: center;
     background-color: #F61313;
     width: 100%;
     height: 100px;
+    top:0px;
 }
+
 
 a,a::after{
     color: white;
     text-decoration: none;
 }
 
-.button:hover{
+.button:hover,.explore-kids:hover{
     background-color: #722C2C;
     transition: all 0.3s ease;
 }
@@ -117,15 +120,7 @@ nav,#check-menu{
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    color: white;
-    background-color: #722C2C;
-    max-width: 800px;
-    filter: opacity(95%);
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+    color: black;
 }
 
 .explore-h1{
@@ -152,10 +147,10 @@ display: flex;
 }
 
 .ul-hours{
+background-color: #722C2C;
 list-style: none;
-background-color: #433C3C;
 color: white;
-width: 500px;
+width: 400px;
 text-align: center;
 padding-left: 0;
 padding-top: 20px;
@@ -229,12 +224,24 @@ text-align: center;
 }
 
 /* Explore Page*/
-.div-explore-h1,.div-explore-h2,.div-explore-buttons{
+.div-explore-h1,.div-explore-h2{
     display: flex;
     width: 100%;
+    justify-content: center;   
+}
+
+.div-explore-buttons{
+    display: flex;
     justify-content: center;
+    width: 100%;
     
-    
+}
+
+.explore-buttons{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    flex-flow: row wrap;
 }
 
  .explore-kids{
@@ -256,6 +263,7 @@ text-align: center;
     justify-content: center;
     gap: 50px;
     align-items: center;
+    margin-top: 100px;
 }
 
 .forkids-p,.forteachers-p,.forresearchers-p{
