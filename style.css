@@ -7,6 +7,7 @@
 :root{
     --color_red:#BC4B51;
     --color_brown:#531b1b;
+    --color_darkred:#810f0f;
 
 }
 
@@ -239,6 +240,7 @@ text-align: center;
     border-radius: 10px;
     width: 200px;
     justify-content: center;
+    text-align: center;
 }
 
 /* Explore Page*/
@@ -256,10 +258,12 @@ text-align: center;
 }
 
 .explore-buttons{
+    width: 100%;
     margin-top: 100px;
     display: flex;
     gap: 50px;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
  .explore-kids{
@@ -334,6 +338,7 @@ text-align: center;
     max-width: 700px;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 10px;
 
 }
 
@@ -426,6 +431,7 @@ text-align: center;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .div-location-h3{
@@ -455,7 +461,7 @@ text-align: center;
 .signup-container,.login-container,.contact-container{
     max-width: 600px;
     width: 100%;
-    background-color: var(--color_red);
+    background-color: var(--color_darkred);
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -496,7 +502,7 @@ text-align: center;
     width: 500px;
     margin: 20px;
     text-align: center;
-    background-color: var(--color_red);
+    background-color: var(--color_darkred);
     border-radius: 10px;
     padding: 20px;
 }
