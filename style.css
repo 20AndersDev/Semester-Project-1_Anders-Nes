@@ -34,7 +34,7 @@ body{
 }
 
 header{
-    position: sticky;
+    position: fixed;
     display: inline-flex;
     align-items: center;
     background-color: var(--color_red);
@@ -145,6 +145,7 @@ footer{
     font-size: 25px;
     align-items: center;
 }
+
 
 nav,#check-menu{
     display: none;
