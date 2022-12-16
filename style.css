@@ -485,6 +485,8 @@ text-align: center;
     
 }
 
+
+
 .event-p{
     width: 100%;
     max-width: 500px;
@@ -538,6 +540,14 @@ text-align: center;
     object-fit: cover;
     width: 100%;
     height: 400px;
+}
+.map{
+    width: 100%;
+    max-width: 600px; 
+    height: 450px; 
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .admission-p{
