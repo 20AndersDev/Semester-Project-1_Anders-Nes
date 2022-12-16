@@ -11,7 +11,7 @@
 :root{
     --color_red:#BC4B51;
     --color_brown:#531b1b;
-    --color_darkred:#883f3f;
+    --color_darkred:#571717;
 
 }
 
@@ -583,7 +583,7 @@ text-align: center;
     color: #0F0B1C;
 }
 .submit-button{
-    color: rgb(0, 255, 13);
+    color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
     border-radius: 10px;
     padding: 10px;
