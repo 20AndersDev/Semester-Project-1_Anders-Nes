@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: 'unbounded';
-    src: url(https://fonts.google.com/share?selection.family=Unbounded:wght@500);
+    font-family: "unbounded";
+    src: url('https://fonts.google.com/share?selection.family=Unbounded:wght@500');
 }
 
 *,*::before, *::after{
@@ -30,7 +30,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'unbounded',Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "unbounded",Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -369,10 +369,9 @@ text-align: center;
 .forkids-p,.forteachers-p,.forresearchers-p{
     width: 100%;
     height: 100%;
-    max-width: 500px;
+    max-width: 300px;
     font-size: 20px;
-    margin-left:10px;
-    margin-right: 10px;
+    padding: 0px,10px,0px,10px;
 }
 
 .div-forkids-img{
@@ -380,7 +379,7 @@ text-align: center;
     max-width: 300px;
     width: 100%;
     height: 100%;
-    max-height: 300px;
+    max-height: 400px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -390,8 +389,8 @@ text-align: center;
     margin-top: 50px;
 }
 
-.forkids-img,.for-teachers{
-    object-fit: contain;
+.for-teachers{
+    object-fit: cover;
 }
 
 .div-forteachers-img,.div-forresearchers-img{
@@ -678,6 +677,7 @@ text-align: center;
         display: flex;
         justify-content: end;
         position: relative;
+        margin-right: 20px;
 
     }
     .nav-button{
