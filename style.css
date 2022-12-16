@@ -4,16 +4,15 @@
     src: url(https://fonts.google.com/share?selection.family=Unbounded:wght@500);
 }
 
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
 :root{
     --color_red:#BC4B51;
     --color_brown:#531b1b;
     --color_darkred:#883f3f;
 
-}
-
-
-*,*::before, *::after{
-    box-sizing: border-box;
 }
 
 img,picture,svg,video{
