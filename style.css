@@ -34,7 +34,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: sticky;
     display: inline-flex;
     align-items: center;
     background-color: var(--color_red);
@@ -488,6 +488,8 @@ text-align: center;
 .event-p{
     width: 100%;
     max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .div-event-img{
@@ -497,6 +499,7 @@ text-align: center;
 }
 
 .event-img{
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
