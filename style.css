@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: "unbounded";
+    font-family: 'Unbounded';
     src: url('https://fonts.google.com/share?selection.family=Unbounded:wght@500');
 }
 
@@ -12,7 +12,6 @@
     --color_red:#BC4B51;
     --color_brown:#531b1b;
     --color_darkred:#571717;
-
 }
 
 img,picture,svg,video{
@@ -40,7 +39,7 @@ header{
     background-color: var(--color_red);
     width: 100%;
     height: 100px;
-    top:0px;
+    top:0;
 }
 
 
@@ -63,7 +62,7 @@ footer{
     align-items: center;
     height: 100%;
     width: 100%;
-    bottom: 0%;
+    bottom: 0;
     background-color:var(--color_red);
     color: white;
 }
@@ -94,14 +93,14 @@ footer{
     max-width: 400px;
     width: 100%;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 
 }
 
 .footer-ul{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -371,7 +370,7 @@ text-align: center;
     height: 100%;
     max-width: 300px;
     font-size: 20px;
-    padding: 0px,10px,0px,10px;
+    padding: 0,10px,0,10px;
 }
 
 .div-forkids-img{
@@ -481,7 +480,7 @@ text-align: center;
     background-color: var(--color_brown);
     color: white;
     padding-left: 20px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0 20px 20px 0;
     
 }
 
@@ -504,7 +503,7 @@ text-align: center;
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 /* visist page */
@@ -677,7 +676,7 @@ text-align: center;
 .div-support-img{
     width: 100%;
     height: 100%;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .support-img-1,.support-img-2,.support-img-3{
@@ -730,8 +729,8 @@ text-align: center;
     .nav-button{
         display: inline-flex;
         width: 100%;
-        border-radius: 0%;
-        margin: 0%;
+        border-radius: 0;
+        margin: 0;
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
@@ -747,12 +746,12 @@ text-align: center;
         margin-right: 5px;
     }
     .event-img{
-        border-radius: 20px 20px 0px 0px;
+        border-radius: 20px 20px 0 0;
         
        
     }
     .div-event-text{
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 0 0 20px 20px;
         text-align: center;
         padding:0;
         margin-left: 5px;
