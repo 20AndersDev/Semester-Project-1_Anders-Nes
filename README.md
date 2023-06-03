@@ -30,7 +30,7 @@ The website consists of these pages:
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Noroff-Anders/ca_cms_anders-nes.git
+git clone https://github.com/Noroff-Anders/Semester-Project-1_Anders-Nes.git
 ```
 
 2. Install the dependencies:
